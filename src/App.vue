@@ -1,26 +1,27 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <MainHeader/>
+  <HeroSection />
+  <MenuSection/>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import MainHeader from './components/MainHeader.vue'
+import HeroSection from './components/HeroSection.vue'
+import MenuSection from './components/MenuSection.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MainHeader,
+    HeroSection,
+    MenuSection
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #19161B;
+  color: #fff;
 }
 </style>
