@@ -22,12 +22,11 @@ export default{
 
 <style scoped>
     section{
-        padding-top: 6rem;
+        padding: 6rem 0;
         display: flex;
         justify-content: center;
     }
     .container{
-        width: 90%;
         text-align: center;
     }
     span{
