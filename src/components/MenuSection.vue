@@ -62,7 +62,7 @@
     cursor: pointer;
     font-size: 1.2rem;
   }
-  button:hover{
+  button:hover  {
     color: #FFC492;
   }
   .menu-item {
@@ -71,6 +71,9 @@
     padding: 10px;
     box-sizing: border-box;
     margin: 10px;
+  }
+  .menu-item{
+    cursor: pointer;
   }
   </style>
   
